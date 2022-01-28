@@ -5,8 +5,8 @@ import IGeometry, { IEntity, IPoint } from './geomtry';
 
 export interface IImageEntity extends IEntity{
 	position: IPoint;
-	uVector: number;
-	vVector: number;
+	uVector: IPoint;
+	vVector: IPoint;
 	imgWidth: number;
 	imgHeight: number;
 	clipBoundary: IPoint[];
