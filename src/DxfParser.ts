@@ -17,6 +17,7 @@ import Polyline from './entities/polyline';
 import Solid from './entities/solid';
 import Spline from './entities/spline';
 import Text from './entities/text';
+import Image from './entities/image';
 //import Vertex from './entities/';
 
 import log from 'loglevel';
@@ -161,6 +162,7 @@ function registerDefaultEntityHandlers(dxfParser: DxfParser) {
 	dxfParser.registerEntityHandler(Solid);
 	dxfParser.registerEntityHandler(Spline);
 	dxfParser.registerEntityHandler(Text);
+	dxfParser.registerEntityHandler(Image);
 	//dxfParser.registerEntityHandler(require('./entities/vertex'));
 }
 
