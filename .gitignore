@@ -8,6 +8,5 @@ out.json
 *.actual.json
 .vscode/
 *.received.*
-dist/
 *.tgz
 *.lock
